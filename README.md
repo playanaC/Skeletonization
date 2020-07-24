@@ -1,5 +1,15 @@
-# skeletonization
+# Skeletonization
+Tracking c. elegans can become quite a challenge, when these worms roll up in coiled shapes, aggregate with other worms, or with dirt in the petri dish. In this work, a simple solution is proposed using artificial vision techniques to help tracking these nematodes. This method uses the distance transform function to obtain an improved skeleton. Using this new skeleton some possible predictions of the next pose are obtained. An optimization function evaluates all and determines the best next pose prediction.
 
+# Requirements:
+This demo was tested in Windows 10 with Matlab R2018b.
+- Windows 10
+- Matlab R2018b
+
+# Clone lifespan repository:
+```
+git clone https://github.com/playanaC/skeletonization.git
+```
 
 
 # Image adquisition system:
