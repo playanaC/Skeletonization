@@ -8,8 +8,12 @@ This demo was tested in Windows 10 with Matlab R2018b.
 
 # Clone lifespan repository:
 ```
-git clone https://github.com/playanaC/skeletonization.git
+git clone https://github.com/playanaC/Skeletonization.git
 ```
+
+# Run the skeletonization demo in Matlab:
+- Before you start, change the path of the images in *path variable* in Main.m file.
+- Run Main.m macro. This macro will first find the region of interest (inside the petri dish), then it will get all the worm trajectories, these will be evaluated to classify the areas in worm tracks(red), noise (blue), areas with little movement (green). Second, you will evaluate each tracks to obtain all the worm skeletons within it. Third, the results will be saved in xml files. 
 
 
 # Image adquisition system:
