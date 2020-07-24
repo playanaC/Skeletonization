@@ -6,7 +6,7 @@ This demo was tested in Windows 10 with Matlab R2018b.
 - Windows 10
 - Matlab R2018b
 
-# Clone lifespan repository:
+# Clone Skeletonization repository:
 ```
 git clone https://github.com/playanaC/Skeletonization.git
 ```
