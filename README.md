@@ -15,6 +15,12 @@ git clone https://github.com/playanaC/Skeletonization.git
 - Before you start, change the path of the images in *path variable* in Main.m file.
 - Run Main.m macro. This macro will first find the region of interest (inside the petri dish), then it will get all the worm trajectories, these will be evaluated to classify the areas in worm tracks(red), noise (blue), areas with little movement (green). Second, you will evaluate each tracks to obtain all the worm skeletons within it. Third, the results will be saved in xml files. 
 
+# Run Gui_viewer in Matlab:
+Gui_viewer is an app to view the results saved in xmls files.
+- First you must select the path of the images with the xmls files using *Path* button.
+- Second in *button group* at the bottom you must select one of the options.
+- Third, if *Single worm* was selected, one of the xml files must be selected, and then one of the images should be selected to see the skeleton in image 1 and in image 2 with increased resolution.
+- If *All worms* was selected, only one of the images should be selected to see all the worm skeletons. At the top, you can select *Zoom in* to get a closer look at each skeleton in image 1.
 
 # Image adquisition system:
 - Images were captured by an [open hardware system](https://github.com/JCPuchalt/c-elegans_smartLight).
