@@ -5,6 +5,9 @@ Tracking c. elegans can become quite a challenge, when these worms roll up in co
 This demo was tested in Windows 10 with Matlab R2018b.
 - Windows 10
 - Matlab R2018b
+- Image Processing Toolbox
+- Communications Toolbox
+- Bioinformatics Toolbox
 
 # Clone Skeletonization repository:
 ```
