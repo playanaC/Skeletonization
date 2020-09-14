@@ -30,7 +30,7 @@ clear tlt noise Cgs noise BWM; %delete variables without using
 %% Process tracks
 disp('Processing c. elegans tracks...');
 rs = 3; %resolution increase
-for x = 10:totalF
+for x = 1:totalF
     tb_box = round(blobMeasurements(x).BoundingBox) + [-6, -6, 6, 6]; %rectangle around the binary image
     MaskBMP = ismember(LB, x)>0; %extract track x
    
