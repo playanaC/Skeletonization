@@ -13,7 +13,7 @@ git clone https://github.com/playanaC/Skeletonization.git
 
 # Run the skeletonization demo in Matlab:
 - Before you start, change the path of the images in *path variable* in Main.m file.
-- If you want to skip the track processing part, you could uncomment lines 7,8, and comment lines 10 through 21.
+- If you want to skip the track processing part, you could uncomment lines 7,8, and comment lines 10 through 21 or vice versa.
 - Run Main.m macro. This macro will first find the region of interest (inside the petri dish), then it will get all the worm trajectories, these will be evaluated to classify the areas in worm tracks(red), noise (blue), areas with little movement (green). Second, you will evaluate each tracks to obtain all the worm skeletons within it. Third, the results will be saved in xml files. 
 
 # Run Gui_viewer in Matlab:
