@@ -8,6 +8,7 @@ This demo was tested in Windows 10 with Matlab R2018b.
 - Image Processing Toolbox
 - Communications Toolbox
 - Bioinformatics Toolbox
+- Statistics and Machine Learning Toolbox
 
 # Clone Skeletonization repository:
 ```
