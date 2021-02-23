@@ -36,3 +36,16 @@ Gui_viewer is an app to view the results saved in xmls files.
 - Puchalt, J.C., Sánchez-Salmerón, A., Ivorra, E. et al. "Improving lifespan automation for *Caenorhabditis elegans* by using image processing and a post-processing adaptive data filter". Scientific Reports (2020) [doi paper](https://doi.org/10.1038/s41598-020-65619-4).
 
 - Layana Castro Pablo E., Puchalt, J.C., Sánchez-Salmerón, A. "Improving skeleton algorithm for helping *Caenorhabditis elegans* trackers". Scientific Reports (2020) [doi paper](https://doi.org/10.1038/s41598-020-79430-8).
+
+# Citation:
+@article {Layana2020,
+	Title = {Improving skeleton algorithm for helping *Caenorhabditis elegans* trackers.},
+	Author = {Layana Castro, Pablo E. and Puchalt, Joan Carles and Sánchez-Salmerón, Antonio-José},
+	DOI = {https://doi.org/10.1038/s41598-020-79430-8},
+	Pages = {22247}, 
+	Number = {1},
+	Volume = {10},
+	Month = {May},
+	Year = {2020},
+	journal = {Scientific Reports}
+}
