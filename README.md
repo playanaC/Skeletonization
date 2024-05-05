@@ -1,5 +1,6 @@
-# Skeletonization
-Tracking c. elegans can become quite a challenge, when these worms roll up in coiled shapes, aggregate with other worms, or with dirt in the petri dish. In this work, a simple solution is proposed using artificial vision techniques to help tracking these nematodes. This method uses the distance transform function to obtain an improved skeleton. Using this new skeleton some possible predictions of the next pose are obtained. An optimization function evaluates all and determines the best next pose prediction.
+# Improving skeleton algorithm for helping *Caenorhabditis elegans* trackers
+![image](https://github.com/playanaC/Skeletonization/blob/master/pipeline.png)
+One of the main problems when monitoring *Caenorhabditis elegans* nematodes (*C. elegans*) is tracking their poses by automatic computer vision systems. This is a challenge given the marked flexibility that their bodies present and the different poses that can be performed during their behaviour individually, which become even more complicated when worms aggregate with others while moving. This work proposes a simple solution by combining some computer vision techniques to help to determine certain worm poses and to identify each one during aggregation or in coiled shapes. This new method is based on the distance transformation function to obtain better worm skeletons. Experiments were performed with 205 plates, each with 10, 15, 30, 60 or 100 worms, which totals 100,000 worm poses approximately. A comparison of the proposed method was made to a classic skeletonisation method to find that 2196 problematic poses had improved by between 22% and 1% on average in the pose predictions of each worm.
 
 # Requirements:
 This demo was tested in Windows 10 with Matlab R2018b.
@@ -29,6 +30,8 @@ Gui_viewer is an app to view the results saved in xmls files.
 # Image adquisition system:
 - Images were captured by an [open hardware system](https://github.com/JCPuchalt/c-elegans_smartLight).
 
+# Example algorithm for aggregations and self-occlusions
+![image](https://github.com/playanaC/Skeletonization/blob/master/algorithm.png)
 
 # References:
 - Puchalt, J. C., Sánchez-Salmerón, A.-J., Martorell Guerola, P. & Genovés Martínez, S. "Active backlight for automating visual monitoring: An analysis of a lighting control technique for *Caenorhabditis elegans* cultured on standard Petri plates". PLOS ONE 14.4 (2019) [doi paper](https://doi.org/10.1371/journal.pone.0215548)
